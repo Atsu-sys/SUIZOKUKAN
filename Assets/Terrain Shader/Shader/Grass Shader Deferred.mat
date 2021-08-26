@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Grass Shader Deferred
+  m_Shader: {fileID: 4800000, guid: de232d1fcf0ff2e449dc99a306179472, type: 3}
+  m_ShaderKeywords: SHADOW_ACTIVE _FACECAMERA_ON _HDRON_ON _MOREBB_ON _TEX1ENABLED_ON
+    _WINDENABLED_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 1900
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassNormal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassTex1:
+        m_Texture: {fileID: 2800000, guid: 7b8d741972d59524d92f6a6ab5c582be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassTex3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassTex4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 2941be714f5974d42b3866365d665a3b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.301
+    - _Ambient: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _Debug: 1.57
+    - _Debug100: 6.28
+    - _Debug2: 0.517
+    - _DebugToggle: 0
+    - _Density: 6.4
+    - _DensityWeight: 2
+    - _DetailNormalMapScale: 1
+    - _Diffuse: 0
+    - _DstBlend: 0
+    - _Glossiness: 0
+    - _Height: 2.67
+    - _Height1: 2
+    - _Height2: 2.6
+    - _Height3: 1.58
+    - _Height4: 1.58
+    - _MaxCameraDistance: 86
+    - _Metallic: 0
+    - _Metallic0: 0
+    - _Metallic1: 0
+    - _Metallic2: 0
+    - _Metallic3: 0
+    - _Mode: 0
+    - _NoiseInfluence: 0.25
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ShadowActive: 1
+    - _ShadowBillboardDistance: 9.3
+    - _ShadowIntensity: 0.75
+    - _Smoothness0: 1
+    - _Smoothness1: 1
+    - _Smoothness2: 1
+    - _Smoothness3: 1
+    - _Specular: 0
+    - _SpecularSize: 22
+    - _SrcBlend: 1
+    - _Tess: 0
+    - _TriBillboardDistance: 15
+    - _UVSec: 0
+    - _UpDown: 0
+    - _Width: 1.5
+    - _Width1: 2
+    - _Width2: 2
+    - _Width3: 1.3
+    - _Width4: 1.3
+    - _WindDirectionDegrees: 28
+    - _ZWrite: 1
+    - _colRad: 3
+    - _colRad0: 3
+    - _colRad1: 3
+    - _colRad2: 1
+    - _colRad3: 1
+    - _colRad4: 1
+    - _colRad5: 1
+    - _colRad6: 1
+    - _colRad7: 1
+    - _colRad8: 1
+    - _colRad9: 1
+    - _colliderCount: 1
+    - _faceCamera: 1
+    - _hdrOn: 1
+    - _lessBB: 0
+    - _moreBB: 1
+    - _tex1Enabled: 1
+    - _tex2Enabled: 0
+    - _tex3Enabled: 0
+    - _tex4Enabled: 0
+    - _transitionDistance: 33.2
+    - _windEnabled: 1
+    m_Colors:
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color2: {r: 1, g: 1, b: 1, a: 1}
+    - _Dry1: {r: 0.7362068, g: 0.89705884, b: 0, a: 1}
+    - _Dry2: {r: 0.88235295, g: 0, b: 0.38336697, a: 1}
+    - _Dry3: {r: 1, g: 0, b: 0, a: 1}
+    - _Dry4: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Healthy1: {r: 0.1586206, g: 1, b: 0, a: 1}
+    - _Healthy2: {r: 1, g: 0, b: 0, a: 1}
+    - _Healthy3: {r: 0, g: 1, b: 0.2965517, a: 1}
+    - _Healthy4: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
+    - _colPos: {r: 249.10739, g: 1.08, b: 251.32259, a: 0}
+    - _colPos0: {r: 248.063, g: 1.0797396, b: 276.47055, a: 0}
+    - _colPos1: {r: 250, g: 1.08, b: 250, a: 0}
+    - _colPos2: {r: 0, g: 0, b: 0, a: 0}
+    - _colPos3: {r: 0, g: 0, b: 0, a: 0}
+    - _colPos4: {r: 0, g: 0, b: 0, a: 0}
+    - _colPos5: {r: 0, g: 0, b: 0, a: 0}
+    - _colPos6: {r: 0, g: 0, b: 0, a: 0}
+    - _colPos7: {r: 0, g: 0, b: 0, a: 0}
+    - _colPos8: {r: 0, g: 0, b: 0, a: 0}
+    - _colPos9: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
